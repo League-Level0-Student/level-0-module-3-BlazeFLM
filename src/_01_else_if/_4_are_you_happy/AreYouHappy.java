@@ -9,9 +9,14 @@ public class AreYouHappy {
 			JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
 		} else {
 			happy = JOptionPane.showInputDialog("Do you want to be happy?");
-			
+			if (happy.equalsIgnoreCase("Yes")) {
+				JOptionPane.showMessageDialog(null, "Change something.");
+			} else {
+				if (happy.equalsIgnoreCase("no")) {
+					JOptionPane.showMessageDialog(null, "Keep doing whatever you're doing");
+				}
+			}
 		}
-		
-		
+
 	}
 }
