@@ -16,6 +16,8 @@ public class BananaQuiz {
 		} else if (ask.equalsIgnoreCase("yes")) {
 			ask = JOptionPane.showInputDialog("What is your favorite hobby?");
 			JOptionPane.showMessageDialog(null, ask + " is much better with bananas!");
+		} else {
+			JOptionPane.showMessageDialog(null, "You are bananas?!");
 		}
 		// 3. if they say yes
 		// ask them what is their favorite hobby
